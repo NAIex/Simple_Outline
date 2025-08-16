@@ -6,3 +6,9 @@ A simple outline render feature made for Unity 6.0 URP. The code is mostly split
 - **SharedTextureData** -- This holds the definition for the objects where we draw and read from. Here the texture used for both passes is stored.
 
 - **outlineShader** -- Here is the code that executes on the GPU. We simply take the original image, blur it, subtract the original one. This way the only thing that is left is is the outline. This outline is then added to the screen texture.
+
+
+Some useful resources I've consulted in making this custom feature:
+- https://ameye.dev/notes/rendering-outlines/
+- https://docs.unity3d.com/6000.0/Documentation/Manual/urp/renderer-features/create-custom-renderer-feature.html
+- https://www.cyanilux.com/tutorials/custom-renderer-features/
