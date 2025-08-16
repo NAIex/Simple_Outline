@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.Rendering;
 using UnityEngine.Rendering.RenderGraphModule;
 using UnityEngine.Rendering.Universal;
+// import SharedTextureData
 
 
 public class DrawOutlinePass : ScriptableRenderPass
