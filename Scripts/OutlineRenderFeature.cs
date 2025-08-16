@@ -20,17 +20,6 @@ public class OutlineRenderFeature : ScriptableRendererFeature
     private DrawOutlineSettings secondPassSettings;
     private DrawOutlinePass outlinePass;
 
-    public class SharedTextureData : ContextItem
-    {
-        public TextureHandle writtenTexture;
-
-        public override void Reset()
-        {
-            writtenTexture = TextureHandle.nullHandle;
-        }
-    }
-
-
     [Serializable]
     public class DrawObjectsSettings
     {
